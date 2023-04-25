@@ -14,19 +14,12 @@ const Navbar = () => {
           <div className="block w-auto">
             <ul className="font-medium flex flex-row p-4 pr-[3rem] flex-row space-x-5">
               <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-black rounded"
-                  
-                >
+                <a href="#" className="block py-2 pl-3 pr-4 text-black rounded">
                   RECIPES
                 </a>
               </li>
               <li>
-                <a
-                  href="#"
-                  className="block py-2 pl-3 pr-4 text-black rounded"
-                >
+                <a href="#" className="block py-2 pl-3 pr-4 text-black rounded">
                   ABOUT
                 </a>
               </li>
@@ -42,9 +35,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-   
-</div>
-  
+    </div>
   );
 };
 
