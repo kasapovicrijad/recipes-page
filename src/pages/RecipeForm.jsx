@@ -2,7 +2,7 @@ import React from 'react'
 
 const RecipeForm = () => {
   return (
-    <div>forma za recepte - treca stranica navbara</div>
+    <div className='mt-[15rem] text-white'>forma za recepte - treca stranica navbara</div>
   )
 }
 

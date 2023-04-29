@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -19,15 +20,15 @@ const Home = () => {
       <div>
         <div class="w-[60rem] h-[60rem] bg-blue-900 rounded-full float-left my-0 py-0 overflow-hidden ml-[-15rem] mt-[5rem] "></div>
       </div>
-      <div>
-        <h1 className="text-8xl font-bold text-white border-white border-[2px] w-[30rem] mr-[9rem] mt-[15rem] text-center float-right">
+      <div className="border-[2px] flex flex-col justify-center float-right mr-[9rem] mt-[12.5rem]">
+        <h1 className="text-8xl font-bold text-white border-white border-[2px] w-[30rem] text-center">
           TRY OUR RECIPES
         </h1>
-        <p className="text-2xl text-white border-white border-[2px] w-[30rem] mr-[9rem] px-[1rem] mt-[5rem] text-left float-right">
+        <p className="text-2xl text-white border-white border-[2px] w-[30rem] px-[1rem] mt-[5rem] text-left">
           Speedy weeknight dinners, 5-ingredient dishes, quick and easy meals,
           plus kid- pleasing snacks and desserts.
         </p>
-        <button>Recipes ➡</button>
+        <Link to="/recipeform" className="text-white font-semibold text-xl mx-auto my-[2rem] border-[2px] bg-amber-800 w-[15rem] p-[1rem] border-none rounded-2xl text-center">RECIPES ➡</Link>
       </div>
     </div>
   );
