@@ -28,7 +28,7 @@ const Home = () => {
           Speedy weeknight dinners, 5-ingredient dishes, quick and easy meals,
           plus kid- pleasing snacks and desserts.
         </p>
-        <Link to="/recipeform" className="text-white font-semibold text-xl mx-auto my-[2rem] border-[2px] bg-amber-800 w-[15rem] p-[1rem] border-none rounded-2xl text-center">RECIPES ➡</Link>
+        <Link to="/recipes" className="text-white font-semibold text-xl mx-auto my-[2rem] border-[2px] bg-amber-800 w-[15rem] p-[1rem] border-none rounded-2xl text-center">RECIPES ➡</Link>
       </div>
     </div>
   );
